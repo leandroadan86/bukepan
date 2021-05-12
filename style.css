@@ -1,0 +1,229 @@
+body {  text-align: center; 
+        font-size: 20px; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular';
+        line-height: 1;
+        margin:0  }
+
+
+
+
+
+.nav-enlace {display:inline-block;
+             background:#fdbd10;
+             color:black;
+             padding: 10px 15px;
+             text-decoration: none; }
+.nav-enlace:hover{ background: #fdbd10 ;}
+nav { display:flex;
+        justify-content: space-around;
+        background: #fdbd10; 
+        padding:10px 15px;
+        }
+
+.nav-button {padding:10px 15px; 
+        background: #fdbd10;
+             color:black;
+             border: 2px solid;
+                display:none}    
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+                        nav{ flex-direction: column;} 
+                        .nav-enlace{margin:10px 0;} 
+                        .nav-button {display:inline-block}
+                        .desaparece {display:none}
+                        .lista-fotos li img{width:95px}}
+
+@media screen and (min-width:950px) { 
+                .grid-container .grid-item img{width:300px}}
+
+
+
+
+
+
+.slider { width:100%; height: 200px; margin: 40px 0 120px 0;}  
+
+.myslides {display:block; width: 300px; height: auto; margin:auto }
+
+
+
+
+
+
+
+
+.grid-container { display:grid;
+        grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+                justify-content: center ;
+                align-content: center;
+                }
+.grid-container img { display:inline-block;
+                        width: 150px;}
+
+
+
+
+
+
+
+
+.accion {width: 100%;}
+.img-accion { width: 300px; 
+        height: auto;
+        margin:auto;
+        display: block;
+        border-radius: 10px; }
+
+
+
+
+
+
+
+
+.aside {display:block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        margin: 5px ;
+        padding: 1px 1px 20px 1px;
+        background: rgb(165, 206, 240);}
+
+
+
+
+
+
+
+.principal-section {
+        display:block;
+        float:left;
+        width: 60%;
+        margin:5px;}
+
+
+
+
+
+
+.footer {display: block;
+        clear:both;
+        padding:1px;
+        background:#fdbd10;
+        margin:5px}
+
+
+
+h5 {font-size: 14px;
+        text-align: center;
+        display:block;
+        margin: 5px}
+
+
+
+
+.link-util .titulo, .redes .titulo, .aside .titulo {font-size: 1.9em}
+.aside span, .aside{ 
+        font: "Open Sans";
+        font-size: 1.1em;
+        margin-left: auto;
+        margin-right:auto; 
+        margin-bottom: 50px;
+        ; }
+.aa{font-size: 1.5em; text-decoration:none; color:rgba(15, 23, 100, 0.945) ; font-weight: 600;line-height: 1.5em;}
+.a:visited {font-size: 1.1em; margin:auto; text-decoration:none; color:black; line-height: 1.5em;
+        }
+.a:link {font-size: 1.1em; text-decoration:none; color:black;line-height: 1.5em }
+
+
+.pedidos p, .zonadeentrega span { font: "Open Sans";
+        font-size: 1.1em;}
+
+.productos .titulo,.metododepago .titulo,
+.zonadeentrega .titulo, .pedidos .titulo, .accion .titulo {background:#fdbd10; padding:5px}
+
+
+.presentacion p {font-size: 2.3em;
+                font-weight: 800; 
+                letter-spacing: 13px;
+                text-align:center;}
+
+
+.productos-productos {display:block; width: 100%;}
+
+.galeria {display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+        justify-content: center;
+        justify-items:center;
+        align-items:center;
+        align-content: center;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 10px;}
+
+.picture {margin-bottom: 10px;
+        }
+
+.galeria_img{width:280px;
+        display:block;
+        }
+
+
+
+
+
+
+
+
+.redes img{width:100px;}
+
+
+
+
+
+
+
+.lista-fotos {display:flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+        list-style: none;
+        padding:0}
+
+.lista-fotos img { width:120px}
+
+
+
+
+
+.nosotros_1 {font-size: 1.1em;
+        margin-left: 50px;
+        margin-right:50px; 
+        margin-top: 50px }
+.nosotros_2 {font-size: 1.1em;
+        margin-left: 50px;
+        margin-right:50px;  }
+.nosotros_3 {font-size: 1.1em;
+        margin-left: 50px;
+        margin-right:50px; 
+        margin-bottom: 50px; }
+
+.ig {border-radius: 30px;   }
+.fb {border-radius: 80px;}
+
+
+video {box-sizing: border-box  ;
+        width: 100%;
+        height: auto;
+        margin-top:10px;
+        margin-bottom: 10px;
+        max-width: 600px;
+        max-height: 800px;
+        background-color: black;}
