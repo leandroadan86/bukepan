@@ -3,14 +3,14 @@ body {
         font-family: 'Montserrat', sans-serif;
         line-height: 1;
         margin:0px 10px;
-        background-color: #fdeb4b; 
+        background-color: #fced66d0; 
         padding: 90px 0 0 0 ; 
         text-align: center;
         }
 
        
 
-.header{ background-color: #fdbd10; 
+.header{ background-color: #fdbe10; 
                 font-size: 30px;
                 width:100%;
                 height: 80px;
@@ -83,7 +83,7 @@ body {
                    }      
   
 .cards {width:23%;
-        background-color: #fdeb4b; 
+        background-color: #fced66d0; 
         display: inline-block;
         margin:1px;
 
@@ -124,7 +124,7 @@ body {
 .aside {display:block;
         margin: 20px 0 5px 0 ;
         padding: 10px 1px 20px 1px;
-        background-color: #fdbd10; }
+        background-color: #fdbd10de; }
 
 .principal-section {
         display:block;
@@ -174,7 +174,7 @@ h3 {font-size: 1.17em;}
 
 .aside .titulo{font-size: 50px;}
 
-.productos .titulo,.metododepago .titulo, .zonadeentrega .titulo, .pedidos .titulo, .accion .titulo {background:#fdbd10; padding:5px;}
+.productos .titulo,.metododepago .titulo, .zonadeentrega .titulo, .pedidos .titulo, .accion .titulo {background:#fdbd10de; padding:5px;}
 
 
 
@@ -238,6 +238,7 @@ video {box-sizing: border-box  ;
         .lista-fotos p {font-size: 15px;}
         .lista-fotos li{width: 30%;
                         height: auto;}
+        .logo {font-size: 20px;}     
         }
         
 
@@ -266,7 +267,7 @@ body {  padding-top: 70px;
 
 .nav-menu { flex-direction: column;
         margin-right: 20px;
-        background-color: #fdeb4b;
+        background-color: #fdbe10;
         position: fixed;
         left: 0;
         right: auto;
